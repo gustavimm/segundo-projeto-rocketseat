@@ -1,0 +1,32 @@
+
+.main-page{
+    align-items: center;
+    margin: 65px 153px 58px 122px ;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+
+
+}
+
+
+li{
+    list-style: none;
+
+}
+
+
+.list{
+    text-decoration: none;
+    padding-left: 48px;
+    color: #1F1534;
+
+}
