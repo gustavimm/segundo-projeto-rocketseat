@@ -70,6 +70,7 @@ ul li a:hover {
 
 h1 span{
     color: #89C5CC;
+    font-weight: bold;
 
 }
 
@@ -105,4 +106,10 @@ p{
     font-size: 14px;
     line-height: 28px;
     color: #7D7987;
+    margin-bottom: 56px;
+}
+
+#image-right-side{
+    margin-left: 102px;
+
 }
