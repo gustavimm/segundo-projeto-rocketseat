@@ -4,11 +4,13 @@ body{
     box-sizing: border-box;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-
+    background: linear-gradient(180deg,  rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38 ) 100%);
+    min-height: 100vh;
 }
 .main-page{
     width: 1000px;
-    margin: 65px auto 0;
+    margin: 0 auto;
+    padding-top: 65px;
 
 }
 header{
@@ -42,6 +44,8 @@ li{
 
 main{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 82px;
 
 }
 
@@ -93,7 +97,6 @@ button{
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-
 }
 
 button:hover{
@@ -109,7 +112,24 @@ p{
     margin-bottom: 56px;
 }
 
-#image-right-side{
-    margin-left: 102px;
+#treineme-paragraph{
+ color: #000;
+}
+
+#paragraph-footer{
+    color: #000;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 
 }
